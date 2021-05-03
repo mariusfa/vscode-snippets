@@ -67,4 +67,15 @@
 			"const history = useHistory();"
 		]
 	},
+
+	"Create useEffect hook": {
+		"scope": "typescript, typescriptreact",
+		"prefix": "use",
+		"body": [
+			"useEffect(() => {",
+			"\t$0",
+			"}, [$1]);"
+		]
+	},
+
 }
